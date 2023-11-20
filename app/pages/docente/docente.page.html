@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()" color="success">
+        <ion-icon slot="icon-only" name="menu-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>docente</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">docente</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-button (click)="PerfilDocente()" shape="round">
+    Mi perfil
+  </ion-button>
+
+  <ion-button (click)="GenerarQr()" shape="round">
+    GenerarQr
+  </ion-button>
+
+  <ion-button (click)="ActualizarPerfil()" shape="round">
+    Actualizar Perfil
+  </ion-button>
+
+</ion-content>

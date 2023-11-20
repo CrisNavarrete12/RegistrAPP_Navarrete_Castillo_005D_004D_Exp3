@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()" color="success">
+        <ion-icon slot="icon-only" name="menu-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <p style="text-align: center; color: rebeccapurple; font-weight: bold;">Hola! {{nombre}}</p>
+  
+  <ion-card>
+    <img src="assets/Logo_DuocUC.jpg" class="ion-padding">
+
+    <ion-card-header>
+      <ion-card-title>RegistrApp</ion-card-title>
+      <ion-card-subtitle></ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Aplicación oficial para registrar tu asistencia
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-button  expand="block" fill="solid" color="success" shape="round" routerLink="/login">
+  Login
+</ion-button>
+
+<ion-button  expand="block" fill="solid" color="warning" shape="round" routerLink="/register">
+  Register
+</ion-button>
+
+<ion-button name="Salir" (click)="logOut()">Salir</ion-button>

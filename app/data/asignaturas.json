@@ -1,0 +1,55 @@
+{
+  "asignaturas": [
+    {
+      "id": 1,
+      "nombre": "Programacion de aplicaciones moviles"
+    },
+    {
+      "id": 2,
+      "nombre": "Base de datos"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "cris.navarrete@duocuc.cl",
+      "password": "duoc",
+      "role": "usuario",
+      "isactive": true
+    },
+    {
+      "nombreCompleto": "Leonardo",
+      "password": "hola1234",
+      "email": "leo.castillo@duocuc.cl",
+      "sede": "Maipu",
+      "asignatura": [
+        "Programacion de aplicaciones moviles"
+      ],
+      "ano": [
+        "2hrs"
+      ],
+      "horas_sem": [
+        "2hrs"
+      ],
+      "role": "docente",
+      "isactive": true,
+      "id": 2
+    }  
+  
+  ],
+  "registros": [
+    {
+      "id": "",
+      "nombre": "",
+      "password": "",
+      "email": ""
+    }
+  ],
+  "palabras": [
+    {
+      "id": 1,
+      "email": "cris.navarrete@duocuc.cl",
+      "palabra": "duoc Maipu"
+    }
+  ]
+}

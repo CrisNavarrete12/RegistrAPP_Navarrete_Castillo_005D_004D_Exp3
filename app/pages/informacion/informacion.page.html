@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()" color="warning">
+        <ion-icon slot="icon-only" name="menu-outline" color="success"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Informacion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+    <ion-card class="contenido">
+      <img src="assets/Logo_DuocUC.jpg" class="ion-padding">
+      <ion-card-header>
+        <ion-card-title class="titulo">RegistrAPP</ion-card-title>
+      </ion-card-header>
+      <ion-card-content >
+        Bienvenido a RegistrAPP!
+        con esta aplicación tendrás un mejor 
+        Registro de asistencia de tus alumnos.
+        Con la opción de desplegar un código QR,
+        el cual tus alumnos lo podrán escanear 
+        y al escanearlo quedan registrada su
+        Asistencia con su día y hora correspondiente.
+      </ion-card-content>
+    </ion-card>
+</ion-content>
